@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Score</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6fb;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        table {
+            width: 90%;
+            max-width: 600px;
+            border-collapse: collapse;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        thead {
+            background: linear-gradient(to right, #ff9800, #ff5722);
+            color: white;
+        }
+
+        th,
+        td {
+            padding: 14px 16px;
+            text-align: center;
+        }
+
+        th {
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f9fafb;
+        }
+
+        tbody tr:hover {
+            background: #fff3e0;
+            transition: 0.3s;
+        }
+
+        td {
+            font-size: 15px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+                <th>Match</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Virat Kohli</td>
+                <td>47</td>
+                <td>IPL 2026</td>
+            </tr>
+
+            <tr>
+                <td>Rohit Sharma</td>
+                <td>78</td>
+                <td>IPL 2026</td>
+            </tr>
+
+            <tr>
+                <td>Manish Pandey</td>
+                <td>54</td>
+                <td>IPL 2024</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
