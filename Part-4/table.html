@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Table</title>
+
+    <style>
+        /* ===== Reset ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #ffe5e5, #fff);
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #b30000;
+            margin-bottom: 20px;
+        }
+
+        /* ===== Table Design ===== */
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(179, 0, 0, 0.2);
+        }
+
+        thead {
+            background: linear-gradient(90deg, #b30000, #ff4d4d);
+            color: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            font-size: 18px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #fff5f5;
+        }
+
+        tbody tr:hover {
+            background-color: #ffd6d6;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Employee Details</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sanskar</td>
+                <td>Python Engineer</td>
+                <td>$100000</td>
+            </tr>
+
+            <tr>
+                <td>Shubham</td>
+                <td>AI/ML Engineer</td>
+                <td>$10000</td>
+            </tr>
+
+            <tr>
+                <td>Sujal</td>
+                <td>Data Engineer</td>
+                <td>$20000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
